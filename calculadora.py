@@ -1,8 +1,9 @@
-#solicitar os valores  a serem calculados
-x = input("informe o primeiro valor:")
-y = input("informe o segundo valor:")
-#realizar o cálculo
-z = int(x) + int(y)
+x = float(input("informe o primeiro valor:"))
+y = float(input("informe o segundo valor:"))
 
-#exibir o resultado para o usuário
-print(f"O resultado de {x} + {y} = {z}")
+
+print(f"a soma de {x} + {y} é {x+y}")
+print(f"a multiplicação de {x} * {y} é {x*y}")
+print(f"a subtração de {x} - {y} é {x-y}")
+print(f"a divisão de {x} / {y} é {round(x/y, 2)}")
+print(f"O resto de {x} % {y} é {(x % y):.2f}")
